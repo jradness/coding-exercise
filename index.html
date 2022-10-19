@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Document</title>
+  <style>
+    #examSoft {
+      position: relative;
+    }
+
+    #random-dog {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #dog-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    ul { padding: 0; }
+
+    li {
+      list-style-type: none;
+      margin: 10px;
+    }
+
+    img {
+      max-width: 100px;
+      width: 100%;
+    }
+
+    h2, h5 {
+      margin: 5px 0;
+      text-align: center;
+      text-transform: capitalize;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>👋 Hello ExamSoft</h1>
+  <img
+    id="examSoft"
+    src="https://media.trustradius.com/product-logos/mO/qp/5ZBL8QOLNOVP-180x180.JPEG"
+    alt="logo">
+  <div>Animation (100px right / 1 sec)</div>
+  <div id="random-dog"></div>
+  <ul id="dog-container"></ul>
+
+  <script src="index.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
